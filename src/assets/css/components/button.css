@@ -1,0 +1,18 @@
+.button {
+  height: 44px;
+  font-size: 16px;
+  line-height: 1;
+  padding: 0 32px;
+  border: 1px solid var(--c-accent);
+  color: var(--c-accent);
+  border-radius: 6px;
+  background: var(--c-dark);
+  cursor: pointer;
+  transition: .3s;
+}
+.button:hover {
+  opacity: .7;
+}
+.button.button--full-width {
+  width: 100%;
+}

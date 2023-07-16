@@ -1,0 +1,22 @@
+.header {
+  padding: 24px 0 60px;
+}
+.header__inner {
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__logo {
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 1;
+  color: var(--c-accent);
+}
+
+.header__controls {
+  display: flex;
+  gap: 16px;
+}

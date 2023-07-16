@@ -1,0 +1,30 @@
+.text-field {
+
+}
+.text-field__label {
+  margin-bottom: 8px;
+  font-size: 14px;
+  line-height: 1;
+  color: var(--c-light);
+  display: inline-flex;
+}
+.text-field__input {
+  width: 100%;
+  display: flex;
+  height: 44px;
+  border: 1px solid transparent;;
+  border-radius: 6px;
+  padding: 0 16px;
+  outline: none;
+  transition: .3s;
+  color: var(--c-white);
+  background: var(--c-primary);
+}
+.text-field__input:focus {
+  border: 1px solid var(--c-accent);
+}
+
+.text-field__input--textarea {
+  padding: 16px;
+  height: 200px;
+}
